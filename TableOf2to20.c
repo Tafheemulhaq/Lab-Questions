@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
     int i, j, k;
     for ( i = 2; i <= 20; i++)
@@ -13,5 +13,4 @@ int main(int argc, char const *argv[])
         
     }
     
-    return 0;
 }

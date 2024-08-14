@@ -3,9 +3,10 @@
 int main()
 {
     int i;
-    for ( i = 1; i <=100; i++)
+    for ( i = 100; i >= 0; i--)
     {
         printf("%d ", i);
+        i--;
     }
     
 }
